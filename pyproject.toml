@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PlanilhaFinanceira"
+version = "0.1.0"
+description = "Controle financeiro pessoal para desktop"
+requires-python = ">=3.11"
+dependencies = [
+    "Pyside6>=6.7",      # interface gráfica (Qt 6)
+    "SQLAlchemy>=2.0",   # ORM + SQLite
+    "platformdirs>=4.0", # pasta de dados certa em cada sistema
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "pyinstaller>=6.6"]
+
+[project.gui-scripts]
+planilha = "PlanilhaFinanceira.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: PlanilhaFinanceira
+Version: 0.1.0
+Summary: Controle financeiro pessoal para desktop
+Requires-Python: >=3.11
+Requires-Dist: Pyside6>=6.7
+Requires-Dist: SQLAlchemy>=2.0
+Requires-Dist: platformdirs>=4.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: ruff>=0.6; extra == "dev"
+Requires-Dist: pyinstaller>=6.6; extra == "dev"

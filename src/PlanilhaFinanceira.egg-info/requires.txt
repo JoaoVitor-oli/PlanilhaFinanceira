@@ -1,0 +1,8 @@
+Pyside6>=6.7
+SQLAlchemy>=2.0
+platformdirs>=4.0
+
+[dev]
+pytest>=8
+ruff>=0.6
+pyinstaller>=6.6

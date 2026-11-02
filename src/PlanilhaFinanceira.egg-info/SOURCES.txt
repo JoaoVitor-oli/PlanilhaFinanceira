@@ -1,0 +1,11 @@
+pyproject.toml
+src/PlanilhaFinanceira.egg-info/PKG-INFO
+src/PlanilhaFinanceira.egg-info/SOURCES.txt
+src/PlanilhaFinanceira.egg-info/dependency_links.txt
+src/PlanilhaFinanceira.egg-info/entry_points.txt
+src/PlanilhaFinanceira.egg-info/requires.txt
+src/PlanilhaFinanceira.egg-info/top_level.txt
+src/planilhafinanceira/__init__.py
+src/planilhafinanceira/__main__.py
+src/planilhafinanceira/app.py
+src/planilhafinanceira/config.py
