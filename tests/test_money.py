@@ -1,12 +1,14 @@
 import pytest
 
-from planilhafinanceira.core.money import(
+from planilhafinanceira.core.money import (
     MINUS,
     NBSP,
+    format_brl,
     format_compact,
     parse_brl,
     to_input_text,
 )
+
 
 @pytest.mark.parametrize(
     ("text", "cents"),
